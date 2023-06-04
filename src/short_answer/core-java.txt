@@ -193,7 +193,12 @@ What is a Framework?
 Answer:
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer:There are several testing frameworks available in Java that can help you write and execute
+tests for your Java code. Some of the popular testing frameworks are:
+JUnit
+TestNG
+Mockito
+Seleniumgit
 
 What are jUnit and testNG?
 Answer:
