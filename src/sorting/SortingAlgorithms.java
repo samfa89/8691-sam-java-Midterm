@@ -1,15 +1,8 @@
+
 package sorting;
 
-public class SortingAlgorithms {
-
-
-    /** INSTRUCTIONS
-     * You must implement all of the sorting algorithms below. Feel free to add any helper methods that you may need,
-     * but make sure they are private, as to not be accessed outside of this class.
-     *
-     * You must also store the sorted arrays into their own individual database tables (Selection Sort should be stored
-     *  in table `selection_sort`, Insertion Sort should be stored in table `insertion_sort`)
-     */
+public class
+SortingAlgorithms {
 
     long executionTime = 0;
 
@@ -42,7 +35,7 @@ public class SortingAlgorithms {
 
     public int[] insertionSort(int[] array) {
         final long startTime = System.currentTimeMillis();
-        // IMPLEMENT HERE
+        // TODO: Implement insertion sort algorithm and store the sorted array in the `insertion_sort` table in the database.
 
         final long endTime = System.currentTimeMillis();
         this.executionTime = endTime - startTime;
@@ -51,37 +44,37 @@ public class SortingAlgorithms {
     }
 
     public int[] bubbleSort(int[] array) {
-        // IMPLEMENT HERE
+        // TODO: Implement bubble sort algorithm and store the sorted array in the `bubble_sort` table in the database.
 
         return array;
     }
 
     public int[] mergeSort(int[] array) {
-        // IMPLEMENT HERE
+        // TODO: Implement merge sort algorithm and store the sorted array in the `merge_sort` table in the database.
 
         return array;
     }
 
     public int[] quickSort(int[] array) {
-        // IMPLEMENT HERE
+        // TODO: Implement quick sort algorithm and store the sorted array in the `quick_sort` table in the database.
 
         return array;
     }
 
     public int[] heapSort(int[] array) {
-        // IMPLEMENT HERE
+        // TODO: Implement heap sort algorithm and store the sorted array in the `heap_sort` table in the database.
 
         return array;
     }
 
     public int[] bucketSort(int[] array) {
-        //implement here
+        // TODO: Implement bucket sort algorithm and store the sorted array in the `bucket_sort` table in the database.
 
         return array;
     }
 
     public int[] shellSort(int[] array) {
-        //implement here
+        // TODO: Implement shell sort algorithm and store the sorted array in the `shell_sort` table in the database.
 
         return array;
     }

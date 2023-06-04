@@ -1,160 +1,187 @@
+
+
+
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 What is a programming language?
-Answer:
+Answer:Programming language is a way for developers to communicate with computers
 
 What is a JDK composed of? Define each components?
-Answer:
+Answer:JRE: java runtime environment
+       JAVA: loader
+       JAVAC:compiler
+       JAR:archiver
+       JAVADOC:a documentation generator
 
 What is an IDE?
-Answer:
+Answer:IDE is a software application that helps programmers develop software code efficiently.
 
 What are some of the most popular Java IDEs available in the market?
-Answer:
+Answer:Intellij, Eclipse, BleuJ
 
 Explain the entire java life cycle.
 Answer:
 
 What is a class?
-Answer:
+Answer: Class is a bleuprint which describes methods,constructors and functions
 
 What is an object?
-Answer:
+Answer:object is an instance of a class.
 
 What is the entry point of a Java project?
-Answer:
+Answer:the main methode is the entry point in Java project.
 
 Why is the main() method static?
-Answer:
+Answer:the main methode is static in order for JVM to load the class into memory.
 
 Which class is the superclass of all classes?
-Answer:
+Answer:Object class
 
 What is difference between path and classpath variables?
 Answer:
 
 What is the difference between an Interface and Abstract class?
-Answer:
+Answer:Abstract classes can have methods with implementation while interface can not have any
+        methods with implementation.
 
 Can you make an Object from an Interface and Abstract class? If yes or no, how would you do it?
-Answer:
+Answer:NO we can't as interface is a complete abstract class
+
 
 What is Access Modifier?
-Answer:
+
+Answer: Access modifier are keywords that we can use to control the visibility of the field.
 
 What is OOP? Define each OOP concept.
 Answer:
 
 What is Java Package and which package is imported by default?
-Answer:
+Answer: A package is a folder in a file directory.
+        Lang package is the one that is imported by default.
 
 What is an API? List some API's that you have used so far.
-Answer:
+Answer:API is a software components bundled with JDK.
+       so far used public, private,final.
 
 Does java support multiple inheritance? Why or why not?
-Answer:
+Answer: Yes java support multiple inheritance to implement more than one interface.
 
 What is method overloading? List all of the different ways to overload.
-Answer:
+Answer:method overloading means having two or more methods in class with the same name and different parameters.
+       a method can be overloaded by changing the number of parameters
+       and by changing the data type of parameters.
 
 Explain exceptions in java and how to handle them.
-Answer:
+Answer:exceptions means an error during the execution of the program.
 
 What is static keyword? When and how do we use it?
 Answer:
 
 What is final keyword? When and how do we use it?
-Answer:
+Answer:In java final is constant, we can not change the value or override if it’s final.
+       The final keyword is used to restrict the user.
 
 Explain the difference between final, finally and finalize?
-Answer:
+Answer:final is an access modifier, finalize is the methode of object and finally is the block in exception handling.
+
 
 What is a constructor?
-Answer:
+Answer: a constructor is used to create the instance of the class.
 
 Can we have multiple constructors in a class?
-Answer:
+Answer: Yes.
 
 If we don't have a constructor declared, what is called during the object creation?
-Answer:
+Answer:the default constructor
 
 What is "this" keyword in Java? When would we use it?
-Answer:
+Answer:"this" refers to the current object in method
+        we use it when the class attributes and parameters have the same name.
 
 What is "super" keyword in Java? What are some scenarios we would use it?
-Answer:
+Answer:"super" refers to superclass objects.
+        we use it to eliminate the confusion between the superclasses and subclasses that have the same name.
 
 What does JVM stand for?
-Answer:
+Answer:JAVA VIRTUAL MACHINE.
 
 Is JVM platform independent?
-Answer:
+Answer:yes is independent.
 
 What version of Java are you using?
 Answer:
 
 What does JAR stand for?
-Answer:
+Answer:java archive.
 
 What is the difference between JDK and JVM?
-Answer:
+Answer:the difference is that JDK exist physically while JVM is virtual not physically exist.
 
 What is the difference between JVM and JRE?
-Answer:
+Answer:JVM is a subclass of JRE that decodes the bytecode into a machine language
+       and JRE identifies all the helpful class libraries needed for execution.
 
 Explain the difference between compile-time and run-time?
-Answer:
+Answer:compile-time is the period that the programming code is converted into machine code
+       while run-time is the period when actually the program is running.
 
 What is heap?
-Answer:
+Answer: heap is the area of memory.
 
 How does Java manage its memory?
-Answer:
+Answer:java manages its memory by using an automatic memory management system called a garbage collector.
+
 
 What is the difference between String, StringBuffer and StringBuilder?
 Answer:
 
 What is Singleton class?
-Answer:
+Answer:is a class that have only one object.
 
 What is Serialization and Deserialization?
 Answer:
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer:While loops are executed while a condition is true. The condition is evaluated BEFORE each execution.
+       do.. While loops are executed at least once. The condition is evaluated AFTER each execution.
 
 What is Enum?
-Answer:
+Answer:Enum is the short form of enumeration. enums are simply constant values that are highly unlikely to change.
+
 
 What is Iterator?
-Answer:
+Answer:is an object used to cycle through arguments.
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer:integer takes more memory than an int because the integer allows conversion to
+       float,double,long and short while int doesn't
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer:Strings are immutable in java to protect them from hackers so theirs values can't be changed.
 
 What is constructor chaining in Java?
-Answer:
+Answer:is a process of calling sequence of constructors.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer:the difference is that Serial collector uses one thread to execute while
+       parallel garbage collector uses multiples threads.
 
 What does JIT stands for?
-Answer:
+Answer:just in time
 
 Explain the process of Java garbage collection?
 Answer:
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer:No
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer:the difference is that stack is used to store the order of methode execution and local variable
+while the heap stores the objects.
 
 What is reflection in Java and why is it useful?
-Answer:
+Answer: reflection a function in the java its useful because it allows us to inspect and modify and transform
+        a java program without affecting the existing code.
 
 What is multithreading in Java?
 Answer:

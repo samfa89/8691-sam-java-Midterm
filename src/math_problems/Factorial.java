@@ -2,17 +2,50 @@ package math_problems;
 
 public class Factorial {
 
-    /** INSTRUCTIONS
-     *
-     * Write a method to return the Factorial of any given number using Recursion, and also another way, using iteration
-     * I have not taught you recursion. Your job is to look it up, learn about it, and use it to find a solution.
-     *
-     * HINT: Factorial of 5! = 5 x 4 X 3 X 2 X 1 = 120
-     */
-
     public static void main(String[] args) {
+        int number = 5;
 
+        // Using recursion
+        long factorialRecursive = calculateFactorialRecursive(number);
+        System.out.println("Factorial of " + number + " (using recursion): " + factorialRecursive);
 
+        // Using iteration
+        long factorialIterative = calculateFactorialIterative(number);
+        System.out.println("Factorial of " + number + " (using iteration): " + factorialIterative);
     }
 
+    /**
+     * Calculates the factorial of a number using recursion.
+     *
+     * @param number The number for which to calculate the factorial.
+     * @return The factorial of the given number.
+     */
+    public static long calculateFactorialRecursive(int number) {
+        if (number == 0) {
+            return 1;
+        } else {
+            return number * calculateFactorialRecursive(number - 1);
+        }
+    }
+
+    /**
+     * Calculates the factorial of a number using iteration.
+     *
+     * @param number The number for which to calculate the factorial.
+     * @return The factorial of the given number.
+     */
+    public static long calculateFactorialIterative(int number) {
+        long factorial = 1;
+
+        for (int i = 1; i <= number; i++) {
+            factorial *= i;
+        }
+
+        return factorial;
+    }
 }
+
+
+
+
+

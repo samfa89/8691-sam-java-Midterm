@@ -1,40 +1,44 @@
 ***ANSWER ALL OF THE QUESTIONS BELOW***
 
 Why do we need data structure?
-Answer:
+Answer:makes it easy for users to accesses and work data they need in appropriate ways.
 
 What are the various operations that can be performed on different data structures?
-Answer:
+Answer: searching,sorting,insertion,deletion.
 
 When would we use data structures in the real world?
 Answer:
 
 What is an Array?
-Answer:
+Answer:Array is a container object that holds a fixed number of values of a single type.
 
 What is the difference between Array and ArrayList?
-Answer:
+Answer:the difference is that array has primitive data types and object data tpe
+       and arraylist has only object data type.
+
 
 What is a LinkedList?
-Answer:
+Answer:is a dynamic data structure whose size increase as you add elements and decreases as you remove them.
 
 How is an Array different from LinkedList?
-Answer:
+Answer:array is a grouping of data elements of equivalent data type
+       LinkedList is a group of entities.
 
 What is a Queue?
-Answer:
+Answer: a Queue represents an ordered list of elements.
 
 What is a Stack (referring to data structures)?
 Answer:
 
 What is FIFO and LIFO?
-Answer:
+Answer:FIFO: first in first out.
+       LIFO:last in first out.
 
 Explain Big O Notation?
 Answer:
 
 What is the best case to search an element from an array?
-Answer:
+Answer:the best case is sequential search.
 
 What is the worst case to search an element from an array?
 Answer:
@@ -46,25 +50,32 @@ Describe what a graph data structure is?
 Answer:
 
 What is the difference between the HashTable and HashMap?
-Answer:
+Answer:the difference os that hashtable is synchronized while hashmap is not synchronized.
 
 How do HashMaps work in Java? How do they store values, and when are they useful?
-Answer:
+Answer:HashMpa use its inner class node for storing mappings.
+       HashMap use singly linked list to store elements.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:that's an error, and it occurs when the index is either negative or greater than
+       or equal to the size of the array.
+
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer: using variable assignment.
+        create a new array of the same length and copy each element.
+        use the clone method of array.
 
 What is DFS and BFS?
-Answer:
+Answer: DFS: Depth first search.
+        BFS: Breath first search.
 
 What is Recursion?
-Answer:
+Answer: its a technique of making a function call itself.
 
 What are linear and non-linear data Structures?
-Answer:
+Answer:Linear: arrays,stacks, linked lists.
+       No Linear: graphs,tree.
 
 Outline different sorting algorithms and their time complexities:
 

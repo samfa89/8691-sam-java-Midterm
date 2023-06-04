@@ -5,24 +5,33 @@ import java.util.Map;
 
 public class DetermineLargestWord {
 
-    /** INSTRUCTIONS
-     * Implement a solution to find the length of the longest word in the given sentence below
-     * Your solution should return a map containing the length of the word as the key & the word itself as the value
-     * "10: biological"
-     */
-
     public static void main(String[] args) {
         String s = "Human brain is a biological learning machine";
         Map<Integer, String> wordNLength = findTheLargestWord(s);
 
-
+        // Print the map
+        for (Map.Entry<Integer, String> entry : wordNLength.entrySet()) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
     }
 
-    public static Map<Integer, String> findTheLargestWord(String wordGiven) {
-        Map<Integer, String> map = new HashMap<Integer, String>();
-        String st = "";
+    public static Map<Integer, String> findTheLargestWord(String sentence) {
+        Map<Integer, String> map = new HashMap<>();
 
-        // Implement here
+        String[] words = sentence.split(" ");
+
+        int maxLength = 0;
+        String longestWord = "";
+
+        for (String word : words) {
+            int length = word.length();
+            if (length > maxLength) {
+                maxLength = length;
+                longestWord = word;
+            }
+        }
+
+        map.put(maxLength, longestWord);
 
         return map;
     }
