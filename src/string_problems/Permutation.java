@@ -2,14 +2,33 @@ package string_problems;
 
 public class Permutation {
 
-    /** INSTRUCTIONS
-     * Create a Java program to compute all permutations of any given string
-     *
-     * e.g. -  "ABC" = "ABC" "ACB" "BAC" "BCA" "CAB" "CBA"
-     */
-
     public static void main(String[] args) {
-
+        String str = "ABC";
+        computePermutations(str);
     }
-    // Implement Here
+
+    public static void computePermutations(String str) {
+        permute(str, 0, str.length() - 1);
+    }
+
+    private static void permute(String str, int left, int right) {
+        if (left == right) {
+            System.out.println(str);
+        } else {
+            for (int i = left; i <= right; i++) {
+                str = swap(str, left, i);
+                permute(str, left + 1, right);
+                str = swap(str, left, i);
+            }
+        }
+    }
+
+    private static String swap(String str, int i, int j) {
+        char[] charArray = str.toCharArray();
+        char temp = charArray[i];
+        charArray[i] = charArray[j];
+        charArray[j] = temp;
+        return String.valueOf(charArray);
+    }
 }
+

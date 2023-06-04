@@ -180,7 +180,7 @@ Answer:the difference is that stack is used to store the order of methode execut
 while the heap stores the objects.
 
 What is reflection in Java and why is it useful?
-Answer: reflection a function in the java its useful because it allows us to inspect and modify and transform
+Answer: reflection a function  n the java its useful because it allows us to inspect and modify and transform
         a java program without affecting the existing code.
 
 What is multithreading in Java?
